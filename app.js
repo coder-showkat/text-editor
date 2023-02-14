@@ -89,7 +89,7 @@ font_case.addEventListener('click', ()=>{
     }
 });
 
-font_color.addEventListener('change', ()=> {
+font_color.addEventListener('input', ()=> {
     textField.style.color = font_color.value;
 });
 
